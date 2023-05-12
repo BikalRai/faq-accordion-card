@@ -4,7 +4,7 @@ dropdowns.forEach((dropdown) => {
   dropdown.addEventListener('click', (e) => {
     const ans = e.target.parentElement.parentElement.lastElementChild;
 
-    e.target.nextElementSibling.classList.toggle('rotate');
+    // e.target.nextElementSibling.classList.toggle('rotate');
 
     e.target.classList.toggle('active_ans');
 
